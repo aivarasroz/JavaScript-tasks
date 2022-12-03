@@ -104,3 +104,67 @@ function possibleBonus(a, b) {
 
 console.groupEnd();
 
+
+
+console.group('https://edabit.com/challenge/iwdZiFucR5wkQsFHu');
+
+const REGEXP = /\b[0-9][0-9]:[0-9][0-9]\b/;
+
+function check(str) {
+	return REGEXP.test(str);
+}
+
+
+console.groupEnd();
+
+
+console.group('https://edabit.com/challenge/8kTQqoWYQXRsKuYEf');
+
+let promise = new Promise(( resolve, reject ) => {
+	setTimeout(( ) =>{
+		resolve("Nepatinka man edabitas")
+	},1000)
+})
+
+console.groupEnd();
+
+
+
+console.group('https://edabit.com/challenge/hD3euqPHM82Cbr7R8');
+
+function largestSwap(num) {
+	return num / 10 >= num % 10;
+}
+
+console.groupEnd();
+
+
+
+console.group('https://edabit.com/challenge/Bxp6uGjgmf8TuG8Fe');
+
+function derivative(b, m) {
+	return b * m ** (b - 1)
+}
+
+console.groupEnd();
+
+console.group('https://edabit.com/challenge/erFxBbqzZPSegMwnc');
+
+
+function changeEnough(change, amountDue) {
+	let quarter = change[0] * .25
+	let dime = change[1] * .1
+	let nickle = change[2] *.05
+	let penny = change[3] *.01
+	return (quarter+dime+nickle+penny >= amountDue)
+}
+
+console.groupEnd();
+
+console.group('https://edabit.com/challenge/q4FkAnRFwDq5LXqkf');
+
+function addsNum(n) {
+	return number => number + n;
+}
+
+console.groupEnd();
