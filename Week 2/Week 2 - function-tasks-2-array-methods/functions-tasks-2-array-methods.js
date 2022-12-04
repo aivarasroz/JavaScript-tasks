@@ -164,7 +164,15 @@ console.group('10. Atrinkti tik natūralių skaičių masyvą');
 console.log('---');
 {
   function filterNaturals(arr) {
-    return arr.filter(numbers => numbers %1 === 0)
+    return arr.filter((numbers)=>{
+      if(
+          (numbers % 1 == 0) && 
+          (numbers > 0) 
+      ){
+          return true
+      }
+      return false
+  })
   }
   console.log({
     numbers,
