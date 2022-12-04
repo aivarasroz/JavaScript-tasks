@@ -194,10 +194,11 @@ console.log('---');
   function filterNaturals(array) {
    let numbers2 = [];
    let g = -1;
+
    for (let i = 0; i < array.length; i++) {
     g++;
-    if (array[i] %1 === 0)  {numbers2[g] = array[i]}
-    else{g--}
+    if (array[i] %1 === 0 && array[i] > 0) 
+     {numbers2[g] = array[i]} else { g--}
    }
    return numbers2
   }
