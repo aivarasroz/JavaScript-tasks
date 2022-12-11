@@ -17,7 +17,7 @@ console.group("1. Sukurkite funkciją, kuri atspausdiną tekstą didžiosiomis r
 console.groupEnd();
 console.log();
 
-console.group("2. Sukurkite funkciją, kuri atspausdina tekstą mažosiomis raidėmis");
+console.group("2. Sukurkite funkciją, kuri atspausdina tekstą mažosiomis raidėmis.");
 {
   // Funkcijos deklaravimas
   function printLower(str) {
